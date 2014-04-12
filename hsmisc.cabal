@@ -1,0 +1,48 @@
+name:                hsmisc
+version:             1.0
+cabal-version:       >= 1.8
+build-type:          Simple
+license:             BSD3
+license-file:        LICENSE
+copyright:           2014 Dino Morelli
+author:              Dino Morelli
+maintainer:          Dino Morelli <dino@ui3.info>
+stability:           experimental
+homepage:            http://foo/bar/baz.html
+synopsis:            Foo
+description:         Bar Baz
+category:            Unknown
+tested-with:         GHC >= 7.6.3
+extra-source-files:  changelog.md
+                     doc/dev/notes
+                     README.md
+                     TODO
+--                     [test suite files]
+--                     [things not under vcs]
+
+--source-repository    head
+--   type:             darcs
+--   location:         URL
+
+library
+   exposed-modules:  HsMisc.Control.Monad.Error
+                     HsMisc.Control.Monad.MonadOr
+                     HsMisc.Data.SimpleConf
+                     HsMisc.Data.TimeStamp
+                     HsMisc.Parsec.Char
+   hs-source-dirs:   src
+   build-depends:    base >= 3 && < 5,
+                     containers,
+                     mtl,
+                     old-locale,
+                     parsec,
+                     regex-compat,
+                     time
+   ghc-options:      -Wall
+
+--test-suite           hsmisc-tests
+--   type:             exitcode-stdio-1.0
+--   main-is:          hsmisc-tests.hs
+--   build-depends:    base
+--   hs-source-dirs:   src testsuite
+--   ghc-options:      -Wall

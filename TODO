@@ -1,0 +1,5 @@
+- Update docs for all modules so they haddock properly
+
+- HsMisc.Control.Monad.Error: Get rid of lookupEWith and make lookupEString more generic (called lookupE) where the key is an instance of Show
+
+- HsMisc.Control.Monad.MonadOr: Document the normal list behavior with mplus and how morelse differs
