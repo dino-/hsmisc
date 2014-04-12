@@ -18,6 +18,14 @@ config file loading to timestamps for logging and helpers for parsec.
 - Get the source with darcs: `$ darcs get http://ui3.info/darcs/hsmisc`
 - If you're just looking, [browse the source](http://ui3.info/darcs/hsmisc)
 
+And once you have it, building the usual way:
+
+>     $ cabal configure --enable-tests
+>     $ cabal build
+>     $ cabal test
+>     $ cabal haddock
+>     $ cabal install
+
 
 ## Contact
 
