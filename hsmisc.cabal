@@ -11,7 +11,10 @@ stability:           experimental
 homepage:            http://foo/bar/baz.html
 synopsis:            Foo
 description:         Bar Baz
-category:            Unknown
+category:            Configuration,
+                     Logging,
+                     Monads,
+                     Parsing
 tested-with:         GHC >= 7.6.3
 extra-source-files:  changelog.md
                      doc/dev/notes
