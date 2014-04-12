@@ -9,12 +9,9 @@ author:              Dino Morelli
 maintainer:          Dino Morelli <dino@ui3.info>
 stability:           experimental
 homepage:            http://foo/bar/baz.html
-synopsis:            Foo
-description:         Bar Baz
-category:            Configuration,
-                     Logging,
-                     Monads,
-                     Parsing
+synopsis:            A collection of miscellaneous modules
+description:         Some Haskell source code that proved to be useful in various projects. These span a range of tasks from monadic actions to simple config file loading to timestamps for logging and helpers for parsec.
+category:            Configuration, Logging, Monads, Parsing
 tested-with:         GHC >= 7.6.3
 extra-source-files:  changelog.md
                      doc/dev/notes
