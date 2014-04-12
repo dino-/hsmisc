@@ -12,7 +12,7 @@
    many tasks. For those needing something that does more, including 
    building and saving config data and .ini-style [section]s, may I 
    suggest Data.ConfigFile 
-   <http://hackage.haskell.org/cgi-bin/hackage-scripts/package/ConfigFile>.
+   <http://hackage.haskell.org/package/ConfigFile>.
 -}
 module HsMisc.Data.SimpleConf
    ( ConfMap, parseToMap
