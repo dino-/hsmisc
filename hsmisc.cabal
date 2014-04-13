@@ -16,8 +16,8 @@ tested-with:         GHC >= 7.6.3
 extra-source-files:  changelog.md
                      doc/dev/notes
                      README.md
+                     testsuite/*.hs
                      TODO
---                     [test suite files]
 --                     [things not under vcs]
 
 --source-repository    head
@@ -40,9 +40,12 @@ library
                      time
    ghc-options:      -Wall
 
---test-suite           hsmisc-tests
---   type:             exitcode-stdio-1.0
---   main-is:          hsmisc-tests.hs
---   build-depends:    base
---   hs-source-dirs:   src testsuite
---   ghc-options:      -Wall
+test-suite           test-hsmisc
+   type:             exitcode-stdio-1.0
+   main-is:          test-hsmisc.hs
+   build-depends:    base >= 3 && < 5,
+                     containers,
+                     HUnit,
+                     regex-compat
+   hs-source-dirs:   src testsuite
+   ghc-options:      -Wall

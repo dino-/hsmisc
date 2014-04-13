@@ -4,6 +4,4 @@
 
 - HsMisc.Control.Monad.MonadOr: Document the normal list behavior with mplus and how morelse differs
 
-- Add unit testing
-
 - Make sure all extra-source-files are added to the cabal file
