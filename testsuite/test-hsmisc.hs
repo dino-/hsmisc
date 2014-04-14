@@ -4,6 +4,7 @@
 import System.Exit
 import Test.HUnit hiding ( counts )
 
+import qualified Error
 import qualified SimpleConf
 
 
@@ -24,5 +25,6 @@ testsPassed (Counts _ _ e f) = (e == 0) && (f == 0)
 
 tests :: Test
 tests = TestList
-   [ SimpleConf.tests
+   [ Error.tests
+   , SimpleConf.tests
    ]
