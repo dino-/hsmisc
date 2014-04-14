@@ -43,10 +43,10 @@ library
 test-suite           test-hsmisc
    type:             exitcode-stdio-1.0
    main-is:          test-hsmisc.hs
+   hs-source-dirs:   src testsuite
    build-depends:    base >= 3 && < 5,
                      containers,
                      HUnit,
                      mtl,
                      regex-compat
-   hs-source-dirs:   src testsuite
    ghc-options:      -Wall
