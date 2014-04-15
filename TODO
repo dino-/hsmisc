@@ -1,5 +1,3 @@
 - Update docs for all modules so they haddock properly
 
-- HsMisc.Control.Monad.MonadOr: Document the normal list behavior with mplus and how morelse differs
-
 - Make sure all extra-source-files are added to the cabal file

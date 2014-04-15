@@ -5,6 +5,7 @@ import System.Exit
 import Test.HUnit hiding ( counts )
 
 import qualified Error
+import qualified MonadOr
 import qualified SimpleConf
 
 
@@ -26,5 +27,6 @@ testsPassed (Counts _ _ e f) = (e == 0) && (f == 0)
 tests :: Test
 tests = TestList
    [ Error.tests
+   , MonadOr.tests
    , SimpleConf.tests
    ]
