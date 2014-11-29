@@ -18,7 +18,8 @@ extra-source-files:  changelog.md
                      README.md
                      testsuite/*.hs
                      TODO
---                     [things not under vcs]
+                     util/gentags.sh
+                     util/prefs/boring
 
 source-repository    head
    type:             darcs
