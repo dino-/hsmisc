@@ -20,9 +20,9 @@ extra-source-files:  changelog.md
                      TODO
 --                     [things not under vcs]
 
---source-repository    head
---   type:             darcs
---   location:         URL
+source-repository    head
+   type:             darcs
+   location:         http://hub.darcs.net/dino/hsmisc
 
 library
    exposed-modules:  HsMisc.Control.Monad.Error
