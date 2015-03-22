@@ -1,5 +1,3 @@
-- Update docs for all modules so they haddock properly
-
 - Make sure all extra-source-files are added to the cabal file
 
 - SimpleConf: Would be great to use QuickCheck for testing instead of the two lonely HUnit tests we have now.

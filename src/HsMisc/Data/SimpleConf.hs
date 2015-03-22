@@ -24,6 +24,7 @@ import Data.Maybe ( catMaybes )
 import Text.Regex ( matchRegex, mkRegex )
 
 
+-- | Convenience type synonym. Config data is just a simple Map
 type ConfMap = Map String String
 
 
