@@ -12,7 +12,7 @@ homepage:            http://foo/bar/baz.html
 synopsis:            A collection of miscellaneous modules
 description:         Some Haskell source code that proved to be useful in various projects. These span a range of tasks from monadic actions to simple config file loading to timestamps for logging and helpers for parsec.
 category:            Configuration, Logging, Monads, Parsing
-tested-with:         GHC >= 7.6.3
+tested-with:         GHC >= 7.8.4
 extra-source-files:  changelog.md
                      doc/dev/notes
                      README.md
