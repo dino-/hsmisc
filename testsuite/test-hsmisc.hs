@@ -6,7 +6,6 @@ import Test.HUnit hiding ( counts )
 
 import qualified Error
 import qualified MonadOr
-import qualified SimpleConf
 
 
 main :: IO ()
@@ -28,5 +27,4 @@ tests :: Test
 tests = TestList
    [ Error.tests
    , MonadOr.tests
-   , SimpleConf.tests
    ]

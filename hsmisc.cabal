@@ -10,8 +10,8 @@ maintainer:          Dino Morelli <dino@ui3.info>
 stability:           experimental
 homepage:            http://foo/bar/baz.html
 synopsis:            A collection of miscellaneous modules
-description:         Some Haskell source code that proved to be useful in various projects. These span a range of tasks from monadic actions to simple config file loading to timestamps for logging and helpers for parsec.
-category:            Configuration, Logging, Monads, Parsing
+description:         Some Haskell source code that proved to be useful in various projects.
+category:            Logging, Monads, Parsing
 tested-with:         GHC >= 7.8.4
 extra-source-files:  changelog.md
                      doc/dev/notes
@@ -28,7 +28,6 @@ source-repository    head
 library
    exposed-modules:  HsMisc.Control.Monad.Error
                      HsMisc.Control.Monad.MonadOr
-                     HsMisc.Data.SimpleConf
                      HsMisc.Data.TimeStamp
                      HsMisc.Parsec.Char
    hs-source-dirs:   src
@@ -37,7 +36,6 @@ library
                      mtl,
                      old-locale,
                      parsec,
-                     regex-compat,
                      time
    ghc-options:      -Wall
 
@@ -48,6 +46,5 @@ test-suite           test-hsmisc
    build-depends:    base >= 3 && < 5,
                      containers,
                      HUnit,
-                     mtl,
-                     regex-compat
+                     mtl
    ghc-options:      -Wall
