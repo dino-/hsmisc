@@ -28,9 +28,8 @@ module HsMisc.Data.TimeStamp
 
 import Control.Monad ( liftM )
 import Data.Time.Clock ( getCurrentTime )
-import Data.Time.Format ( formatTime )
+import Data.Time.Format ( defaultTimeLocale, formatTime )
 import Data.Time.LocalTime ( utcToLocalZonedTime )
-import System.Locale ( defaultTimeLocale )
 
 
 {- |
