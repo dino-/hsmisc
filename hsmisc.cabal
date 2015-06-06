@@ -8,7 +8,7 @@ copyright:           2014-2015 Dino Morelli
 author:              Dino Morelli
 maintainer:          Dino Morelli <dino@ui3.info>
 stability:           experimental
-homepage:            http://foo/bar/baz.html
+homepage:            http://hub.darcs.net/dino/hsmisc
 synopsis:            A collection of miscellaneous modules
 description:         Some Haskell source code that proved to be useful in various projects.
 category:            Logging, Monads, Parsing
