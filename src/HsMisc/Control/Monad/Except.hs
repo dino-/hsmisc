@@ -8,13 +8,13 @@
    (MonadError e a) actions plus a function for expressing Data.Map 
    lookups as MonadError actions
 -}
-module HsMisc.Control.Monad.Error
+module HsMisc.Control.Monad.Except
    ( maybeThrow
    , lookupE
    )
    where
 
-import Control.Monad.Error
+import Control.Monad.Except
 import Data.Map hiding ( map )
 import Prelude hiding ( lookup )
 
