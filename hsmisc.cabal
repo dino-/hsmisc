@@ -12,10 +12,11 @@ homepage:            http://hub.darcs.net/dino/hsmisc
 synopsis:            A collection of miscellaneous modules
 description:         Some Haskell source code that proved to be useful in various projects.
 category:            Logging, Monads, Parsing
-tested-with:         GHC >= 7.10.1
+tested-with:         GHC >= 8.0.1
 extra-source-files:  changelog.md
                      doc/dev/notes
                      README.md
+                     stack.yaml
                      testsuite/*.hs
                      TODO.md
                      util/gentags.sh
@@ -48,3 +49,7 @@ test-suite           test-hsmisc
                      HUnit,
                      mtl
    ghc-options:      -Wall
+   other-modules:    Except
+                     HsMisc.Control.Monad.Except
+                     HsMisc.Control.Monad.MonadOr
+                     MonadOr
