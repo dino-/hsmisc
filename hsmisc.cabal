@@ -13,18 +13,18 @@ synopsis:            A collection of miscellaneous modules
 description:         Some Haskell source code that proved to be useful in various projects.
 category:            Logging, Monads, Parsing
 tested-with:         GHC >= 8.0.1
-extra-source-files:  changelog.md
+extra-source-files:  .gitignore
+                     changelog.md
                      doc/dev/notes
                      README.md
                      stack.yaml
                      testsuite/*.hs
                      TODO.md
                      util/gentags.sh
-                     util/prefs/boring
 
 source-repository    head
-   type:             darcs
-   location:         http://hub.darcs.net/dino/hsmisc
+   type:             git
+   location:         https://github.com/dino-/hsmisc.git
 
 library
    exposed-modules:  HsMisc.Control.Monad.Except

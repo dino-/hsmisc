@@ -15,16 +15,13 @@ config file loading to timestamps for logging and helpers for parsec.
 
 ## Getting source
 
-- Get the source with darcs: `$ darcs get http://hub.darcs.net/dino/hsmisc`
-- If you're just looking, [browse the source](http://hub.darcs.net/dino/hsmisc)
+- Get the source with darcs: `$ git clone https://github.com/dino-/hsmisc.git`
+- If you're just looking, [browse the source](https://github.com/dino-/hsmisc)
 
 And once you have it, building the usual way:
 
-    $ cabal configure --enable-tests
-    $ cabal build
-    $ cabal test
-    $ cabal haddock
-    $ cabal install
+    $ stack build
+    $ stack test
 
 
 ## Contact
